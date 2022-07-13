@@ -1,0 +1,49 @@
+.button {
+  width: 160px;
+  background: #57ab68;
+  border-radius: 4px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}
+
+.tolq-textarea {
+  width: 49%;
+  height: 40px;
+  min-width: 49%;
+  min-height: 40px;
+  border: 1px solid #edeeee;
+  border-radius: 2px;
+  box-sizing: border-box;
+  padding: 8px 12px;
+  font-size: 18px;
+  color: rgb(57, 55, 55);
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.progress-completed {
+  height: 16px;
+  width: 100%;
+  background: red;
+  transition: width 1s ease-in-out 0s;
+  border-radius: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.input-loading {
+  width: 70%;
+}
+
+.side-loading {
+  width: 30%;
+}
